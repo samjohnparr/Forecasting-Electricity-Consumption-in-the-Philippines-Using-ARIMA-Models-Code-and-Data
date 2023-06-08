@@ -7,6 +7,8 @@ This repository contains code for forecasting electricity demand in the Philippi
 
 ## Contents
 
-- `data/`: This directory includes the dataset used for the analysis, comprising historical electricity demand data in the Philippines. The dataset is stored in XLSX format and provides information on time, and demand values.
+- *Power Consumption from 1973 to 2015:* This file contains electricity consumption from 1973 to 2015. This data is used in building the ARIMA model.
 
-- `src/`: This directory contains the R scripts used for data preprocessing, model training, and generating the forecasts. The scripts utilize the `forecast` package in R, which provides functions specifically designed for time series analysis and forecasting.
+- *Power Consumption from 2016 to 2020:* This file contains electricity consumption from 2016 to 2020. This data is used in model validation.
+
+- *R Codes:* This file contains the R scripts used for data preprocessing, model training, and generating the forecasts. The scripts utilize the `forecast` package in R, which provides functions specifically designed for time series analysis and forecasting.
